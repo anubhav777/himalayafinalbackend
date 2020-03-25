@@ -8,7 +8,7 @@ from datetime import date
 
 app=Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI']="postgresql://postgres:12345@localhost/finalhimalaya"
+app.config['SQLALCHEMY_DATABASE_URI']="postgres://ecydmwxksovppy:855e743dd7e9e37d77dc88d9fad8f0ebb56862677bd18b01667236c0c1a54f93@ec2-54-147-209-121.compute-1.amazonaws.com:5432/dcss1m09vhtcso"
 app.config['SQLALCHEMY_TRACK_MODIFICATION']=False
 db=SQLAlchemy(app)
 ma=Marshmallow(app)
